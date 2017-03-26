@@ -102,6 +102,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtnama">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="tt"/>
+          </Properties>
           <Events>
             <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtnamaKeyPressed"/>
           </Events>
@@ -112,6 +115,12 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtnim">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="JTextField"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtnimKeyPressed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="bnsimpan">
           <Properties>

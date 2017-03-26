@@ -47,6 +47,7 @@ public class Modul2 extends javax.swing.JFrame {
 
         labelnama.setText("Nama");
 
+        txtnama.setText("tt");
         txtnama.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 txtnamaKeyPressed(evt);
@@ -54,6 +55,13 @@ public class Modul2 extends javax.swing.JFrame {
         });
 
         labelnim.setText("NIM");
+
+        txtnim.setText("JTextField");
+        txtnim.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                txtnimKeyPressed(evt);
+            }
+        });
 
         bnsimpan.setText("Simpan");
         bnsimpan.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -167,6 +175,10 @@ public class Modul2 extends javax.swing.JFrame {
                 txtnama.requestFocus();
                 return;
     }//GEN-LAST:event_bnsimpanActionPerformed
+
+    private void txtnimKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtnimKeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnimKeyPressed
 
     /**
      * @param args the command line arguments
