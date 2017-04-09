@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Modul5;
+package javax.swing;
 
 /**
  *
  * @author Acer
  */
-class jOptionPane {
+public class jOptionPane {
 
-    static void showMessageDialog(PostTest5Visual aThis, String string) {
+    public static void showMessageDialog(Object object, String koneksi_Berhasil) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
